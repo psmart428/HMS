@@ -33,7 +33,6 @@ export default function UserFields({
       <div>
         <Label name="Role" />
         <select
-          className="w-full px-4 py-2 border rounded-lg dark:bg-gray-700 dark:text-white focus:ring-2 focus:ring-blue-500"
           {...register("role")}
           disabled={isPending}
         >
