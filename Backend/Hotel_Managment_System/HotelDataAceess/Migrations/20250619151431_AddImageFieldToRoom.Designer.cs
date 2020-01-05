@@ -198,7 +198,6 @@ namespace HotelDataAceess.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.Property<byte>("Gender")
                         .HasColumnType("tinyint")
                         .HasComment("0 => Male \r\n1 => Female");
 
