@@ -253,6 +253,7 @@ namespace Hotel_Server_Side.Controllers
                 {
                     return BadRequest("Id must be greater than zero.");
                 }
+                bool IsFound = await RoomService.ExistsAsync(id);
 
                 return Ok(IsFound);
             }
