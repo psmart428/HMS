@@ -52,7 +52,6 @@ export default function BookingForMobile({ allBookings: allBookings }: Data) {
               <i className="fas fa-edit mr-1"></i>Update
             </button>
             <button
-              className="text-red-600 dark:text-red-400 hover:text-red-800 dark:hover:text-red-300 text-sm"
               onClick={() => {
                 setOpenId(b.bookingId);
                 setModalType("delete");
