@@ -134,6 +134,7 @@ namespace Hotel_Server_Side.Controllers
 
                 return Ok(result);
             }
+            catch (Exception ex)
             {
                 _Logger.LogError(ex, "An error occurred while logging out the user.");
                 return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred while processing your request.");
