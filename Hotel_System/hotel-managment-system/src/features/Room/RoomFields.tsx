@@ -56,6 +56,7 @@ export default function RoomFields({
           className="
   w-full
   rounded-xl
+  border border-gray-300 dark:border-gray-600
   bg-white dark:bg-gray-700
   px-4 py-3
   text-sm
