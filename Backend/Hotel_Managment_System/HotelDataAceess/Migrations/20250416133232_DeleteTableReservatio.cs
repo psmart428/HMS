@@ -47,6 +47,7 @@ namespace HotelDataAceess.Migrations
                     RoomID = table.Column<int>(type: "int", nullable: false),
                     CreatedDate = table.Column<DateTime>(type: "datetime", nullable: false),
                     LastStatusDate = table.Column<DateTime>(type: "datetime", nullable: false),
+                    NumberOfPeople = table.Column<byte>(type: "tinyint", nullable: false, defaultValue: (byte)1),
                     ReservationDate = table.Column<DateTime>(type: "datetime", nullable: false),
                     Status = table.Column<byte>(type: "tinyint", nullable: false)
                 },
