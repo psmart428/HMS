@@ -255,7 +255,6 @@ namespace HotelDataAceess.Migrations
 
                     b.Property<int>("RoomTypeId")
                         .HasColumnType("int")
-                        .HasColumnName("RoomTypeID");
 
                     b.HasKey("RoomId")
                         .HasName("PK__Rooms__32863919B4265D84");
