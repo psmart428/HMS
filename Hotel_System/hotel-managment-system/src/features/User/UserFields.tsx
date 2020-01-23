@@ -52,7 +52,6 @@ export default function UserFields({
           autoComplete="new-password"
           placeholder="Enter your password"
           disabled={isPending}
-          className={`w-full px-4 py-2 border rounded-lg dark:bg-gray-700 dark:text-white focus:ring-2 
         focus:ring-blue-500${
           isPending ? "cursor-not-allowed opacity-60" : "cursor-pointer"
         }`}
