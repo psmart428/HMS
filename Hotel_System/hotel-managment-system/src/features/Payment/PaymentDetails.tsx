@@ -17,7 +17,6 @@ export default function PaymentDetails() {
     bookingDetails?.personId,
     modalType,
   );
-  const { isLoading: isLoading4, roomDetails } = useGetRoom(
     bookingDetails?.roomId,
     modalType,
   );
