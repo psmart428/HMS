@@ -28,7 +28,6 @@ export function useUpdateRoomTypes() {
       queryClient.invalidateQueries({ queryKey: ["roomTypes"] });
     },
     onError: (err) => {
-      const errorMessage = err?.message || "An error occurred";
       toast.error(`update failed: ${errorMessage}`);
     },
   });
