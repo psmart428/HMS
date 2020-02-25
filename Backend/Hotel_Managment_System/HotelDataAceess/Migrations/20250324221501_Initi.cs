@@ -212,7 +212,6 @@ namespace HotelDataAceess.Migrations
                     table.ForeignKey(
                         name: "FK__Payments__Bookin__6754599E",
                         column: x => x.BookingID,
-                        principalTable: "Bookings",
                         principalColumn: "BookingID",
                         onDelete: ReferentialAction.Restrict);
                 });
