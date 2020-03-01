@@ -43,7 +43,6 @@ function ListRooms({
         </h3>
         <p className="text-gray-600 mb-4 leading-relaxed">
           {additionalNotes
-            ? additionalNotes
             : "Comfortable room with all essential amenities"}
         </p>
 
