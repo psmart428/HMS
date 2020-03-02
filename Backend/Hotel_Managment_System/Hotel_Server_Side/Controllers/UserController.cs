@@ -297,7 +297,6 @@ namespace Hotel_Server_Side.Controllers
             }
         }
 
-        [Authorize(Roles = "Admin,Employee")]
         [HttpGet("CountUsers/{column}/{value}/{Operations}", Name = "CountUsers")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
