@@ -24,6 +24,7 @@ namespace HotelBussinse.Services.Implements
         private readonly JWT _jwtSettings= jwtSettings.Value;
 
 
+        private string GenerateJwtToken(User user)
         {
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtSettings.Key));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
