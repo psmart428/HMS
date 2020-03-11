@@ -53,6 +53,7 @@ namespace HotelDataAceess.Migrations
 
                     b.HasIndex("UserId");
 
+                    b.ToTable("RefreshTokens");
                 });
 
             modelBuilder.Entity("HotelDataAceess.Entiteis.Authentication.User", b =>
