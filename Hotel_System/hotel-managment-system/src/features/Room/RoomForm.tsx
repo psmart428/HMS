@@ -52,6 +52,7 @@ function RoomForm({
         initialData.isSmokingAllowed === true ? "1" : "0",
       );
       setValue("isPetFriendly", initialData.isPetFriendly === true ? "1" : "0");
+      setValue(
         "additionalNotes",
         initialData.additionalNotes === ""
           ? "No notes"
