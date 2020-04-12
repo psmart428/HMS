@@ -360,6 +360,7 @@ namespace HotelDataAceess.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("HotelDataAceess.Entiteis.Authentication.User", b =>
