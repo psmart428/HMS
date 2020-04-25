@@ -306,7 +306,6 @@ namespace HotelDataAceess.Migrations
                         .HasColumnType("int");
 
                     b.Property<DateTime>("CheckInDate")
-                        .HasColumnType("datetime2");
 
                     b.Property<DateTime>("CheckOutDate")
                         .HasColumnType("datetime2");
