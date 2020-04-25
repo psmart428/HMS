@@ -166,6 +166,7 @@ namespace HotelDataAceess.Migrations
                         .HasColumnType("int")
                         .HasColumnName("BookingID");
 
+                    b.Property<decimal>("PaidAmount")
                         .HasColumnType("smallmoney");
 
                     b.Property<DateTime>("PaymentDate")
