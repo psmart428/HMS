@@ -44,6 +44,7 @@ export default function RoomOperation() {
 
         <div className="w-full sm:w-auto">
           <Filter
+            filterKey="isPetFriendly"
             options={[
               { value: "all", label: "All" },
               { value: "true", label: "Allowed" },
