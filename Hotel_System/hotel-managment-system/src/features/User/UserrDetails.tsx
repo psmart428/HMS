@@ -38,6 +38,7 @@ export default function UserrDetails() {
             className="text-white hover:scale-110 transition"
           >
             <i className="fas fa-times text-3xl"></i>
+          </button>
         </div>
 
         <div
