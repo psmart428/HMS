@@ -16,6 +16,7 @@ namespace HotelBussinse.Mappers.MaooerEnums
         public AvailabilityStatus Resolve(CreateOrUpdateRoomDto source, Room destination, AvailabilityStatus destMember, ResolutionContext context)
         {
             return Enum.TryParse<AvailabilityStatus>(source.AvailabilityStatus, ignoreCase: true, out var gender)
+                ? gender
                 : AvailabilityStatus.Available; // Default value if parsing fails
         }
     }
