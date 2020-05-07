@@ -4,7 +4,6 @@ namespace HotelBussinse.Services.Interfaces
 {
     public interface ICountryService
     {
-        Task<IEnumerable<CountryDto>> GetAllAsync();
         Task<CountryDto> GetByIdAsync(int id);
         Task<CountryDto> AddAsync(CreateOrUpdateCountryDto countryDto);
         Task<CountryDto> UpdateAsync(int id, CreateOrUpdateCountryDto countryDto);
