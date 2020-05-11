@@ -72,6 +72,7 @@ namespace HotelBussinse.Services.Implements
 
         public async Task<IEnumerable<PaymentDto>> PagerPaymentsUsingPageNumber(short pageNumber, int pageSize, string column, string value, string Operations)
         {
+            IEnumerable<Payment> Payments;
 
             if (!string.IsNullOrEmpty(column) && !string.IsNullOrEmpty(value) && !string.IsNullOrEmpty(Operations))
             {
