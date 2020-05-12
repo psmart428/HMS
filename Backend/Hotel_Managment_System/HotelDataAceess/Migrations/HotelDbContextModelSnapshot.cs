@@ -122,7 +122,6 @@ namespace HotelDataAceess.Migrations
 
                     b.HasIndex("PersonId");
 
-                    b.HasIndex("RoomId");
 
                     b.ToTable("Bookings");
                 });
