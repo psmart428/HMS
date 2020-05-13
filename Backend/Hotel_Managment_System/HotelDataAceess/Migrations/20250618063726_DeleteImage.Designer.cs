@@ -86,6 +86,7 @@ namespace HotelDataAceess.Migrations
                         .HasColumnType("nvarchar(20)")
                         .HasDefaultValue("Guest");
 
+                    b.HasKey("UserId")
                         .HasName("PK__Users__1788CCACB0319B20");
 
                     b.HasIndex(new[] { "PersonId" }, "UQ__Users__AA2FFB84A120F0B3")
