@@ -6,6 +6,7 @@ export function useAllRoomNumbers() {
   const roomRepository = useMemo(() => new RoomRepository(), []);
   const {
     isLoading,
+    data: RoomNumbers = [],
     error,
   } = useQuery({
     queryKey: ["RoomNumbers"],

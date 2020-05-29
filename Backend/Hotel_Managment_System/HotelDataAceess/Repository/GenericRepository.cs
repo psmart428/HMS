@@ -67,6 +67,7 @@ namespace HotelDataAceess.Repository
         public async Task<int> Count(Expression<Func<T, bool>>? predicate = null)
         {
             return predicate == null
+                ? await _dbSet.CountAsync()
                 : await _dbSet.CountAsync(predicate);
         }
     }
