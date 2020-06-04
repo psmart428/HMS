@@ -12,6 +12,7 @@ import {
   validateConfirmPasswordRule,
   validateCountryRule,
   validateEmailRuleForRegister,
+  validateGenderRule,
   validatePasswordRule,
   validatePhoneRule,
 } from "../../utils/validationRules";
