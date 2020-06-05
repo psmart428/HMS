@@ -81,7 +81,6 @@ namespace HotelDataAceess.Repository.Implements
         {
             return predicate == null
                 ? await _dbContext.Set<BookingView>().CountAsync()
-                : await _dbContext.Set<BookingView>().CountAsync(predicate);
         }
         public async Task<IEnumerable<BookingView>> SearchBookingUsingDate(short pageNumber, int pageSize, DateTime from, DateTime to)
         {
