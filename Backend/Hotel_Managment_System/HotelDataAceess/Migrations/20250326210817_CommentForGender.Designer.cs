@@ -133,7 +133,6 @@ namespace HotelDataAceess.Migrations
                 {
                     b.Property<int>("CountryId")
                         .HasColumnType("int")
-                        .HasColumnName("CountryID");
 
                     b.Property<string>("CountryName")
                         .IsRequired()
