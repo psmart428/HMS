@@ -19,7 +19,6 @@ export default function BookingForMobile({ allBookings: allBookings }: Data) {
           <div className={className}>
             Check in date:{" "}
             {b.checkInDate ? new Date(b.checkInDate).toLocaleDateString() : "-"}
-          </div>
           <div className={className}>
             Check out date:{" "}
             {b.checkOutDate
