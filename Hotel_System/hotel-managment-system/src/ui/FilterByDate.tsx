@@ -52,6 +52,7 @@ export default function FilterByDate({ filterKey }: Data) {
       </div>
       <button
         onClick={handleSearch}
+        className="w-full sm:w-auto bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg transition"
       >
         Search
       </button>
