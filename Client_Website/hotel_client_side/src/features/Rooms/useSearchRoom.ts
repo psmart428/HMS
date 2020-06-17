@@ -11,7 +11,6 @@ export function useSearchRoom() {
 
   const roomType: string = searchParams.get("roomType") || "";
   const checkIn: string = searchParams.get("checkIn") || "";
-  const checkOut: string = searchParams.get("checkOut") || "";
   const GuestNumber: number = Number(searchParams.get("guests")) || 4;
 
   let shouldFetchRooms: boolean = true;
