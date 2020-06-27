@@ -74,6 +74,7 @@ export default function BookingDetails() {
 
           <BookingCard
             bookingId={openId}
+            bookingDetails={bookingDetails}
             fullName={visitorDetails?.fullName}
             roomNumber={roomDetails?.roomNumber}
             roomTypeName={roomTypeDetails?.roomTypeTitle}
