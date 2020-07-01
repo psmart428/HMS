@@ -30,7 +30,6 @@ export default function RoomForMobile({ allRooms }: Data) {
           <div className={className}>
             Is Smoking Allowed:
             {r.isSmokingAllowed ? "Allowed" : "Not Allowed"}
-          </div>
           <div className={className}>
             Is Pet Friendly:
             {r.isPetFriendly ? "Allowed" : "Not Allowed"}
