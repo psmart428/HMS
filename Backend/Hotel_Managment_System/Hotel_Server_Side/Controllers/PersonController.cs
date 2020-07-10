@@ -278,6 +278,7 @@ namespace Hotel_Server_Side.Controllers
                 {
                     column = null;
                     value = null;
+                    Operations = null;
 
                 }
 
