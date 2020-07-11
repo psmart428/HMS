@@ -38,6 +38,7 @@ function Header({
                 <i className="fas fa-hotel text-sm sm:text-base text-white"></i>
               </div>
 
+              <h1 className="ml-2 truncate text-base sm:text-lg md:text-xl font-bold text-gray-900 dark:text-white">
                 Grand Hotel
               </h1>
             </div>
