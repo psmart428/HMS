@@ -336,7 +336,6 @@ namespace HotelDataAceess.Migrations
                         .HasName("PK__RoomType__BCC89611C6B4CBBE");
 
                     b.HasIndex(new[] { "RoomTypeTitle" }, "UQ__RoomType__E37A7CB411ACF533")
-                        .IsUnique();
 
                     b.ToTable("RoomTypes");
                 });
