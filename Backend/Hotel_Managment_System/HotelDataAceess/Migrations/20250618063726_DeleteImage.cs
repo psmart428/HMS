@@ -10,7 +10,6 @@ namespace HotelDataAceess.Migrations
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropColumn(
                 name: "PersonalImagePath",
                 table: "People");
         }
