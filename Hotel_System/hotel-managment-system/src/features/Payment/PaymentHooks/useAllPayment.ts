@@ -56,6 +56,7 @@ export function useAllPayment() {
             pageNumber + 1,
             PAGE_SIZE,
             column,
+            filterValue,
             operation,
           ),
       });
