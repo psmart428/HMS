@@ -419,6 +419,7 @@ namespace HotelDataAceess.Migrations
                         .WithMany("Reservations")
                         .HasForeignKey("RoomId")
                         .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired()
                         .HasConstraintName("FK__Reservati__RoomI__5CD6CB2B");
 
                     b.Navigation("ReservationPerson");

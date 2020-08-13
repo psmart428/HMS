@@ -88,6 +88,7 @@ namespace HotelDataAceess.Migrations
 
                     b.HasIndex(new[] { "PersonId" }, "UQ__Users__AA2FFB84A120F0B3")
                         .IsUnique()
+                        .HasFilter("[PersonID] IS NOT NULL");
 
                     b.ToTable("Users");
                 });
