@@ -38,7 +38,6 @@ export default function BookingOperation() {
               { value: "date", label: "By Date" },
               { value: "status", label: "Status" },
               { value: "fullName", label: "Guest Name" },
-              { value: "roomNumber", label: "Room Number" },
             ]}
             nameOfSearch="bookingSearch"
           />
