@@ -27,7 +27,6 @@ namespace Hotel_Server_Side.Controllers
         {
             try
             {
-                var bookings = await BookingService.GetAllBookingAsync();
 
 
                 if (!bookings.Any())
