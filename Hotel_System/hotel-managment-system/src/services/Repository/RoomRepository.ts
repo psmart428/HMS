@@ -56,6 +56,7 @@ export class RoomRepository extends GenericRepository<Room> {
     return result;
   }
   async IsRoomAvailable(
+    bookingId: number,
     id: number,
     checkInDate: string,
     checkOutDate: string,
