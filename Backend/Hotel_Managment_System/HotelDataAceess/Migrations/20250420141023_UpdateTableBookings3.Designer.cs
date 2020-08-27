@@ -128,6 +128,7 @@ namespace HotelDataAceess.Migrations
                     b.ToTable("Bookings");
                 });
 
+            modelBuilder.Entity("HotelDataAceess.Entiteis.Country", b =>
                 {
                     b.Property<int>("CountryId")
                         .ValueGeneratedOnAdd()
