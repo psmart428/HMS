@@ -142,6 +142,7 @@ namespace HotelDataAceess.Migrations
                         .HasColumnType("nvarchar(50)");
 
                     b.HasKey("CountryId")
+                        .HasName("PK__Countrie__10D160BF6D64096B");
 
                     b.HasIndex(new[] { "CountryName" }, "UQ__Countrie__E056F2013F3B1091")
                         .IsUnique();
