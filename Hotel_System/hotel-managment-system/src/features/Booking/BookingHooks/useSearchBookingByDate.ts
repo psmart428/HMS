@@ -24,6 +24,7 @@ export function useSearchBookingByDate() {
       ]);
       return { count, bookings };
     },
+    enabled: shouldFetchVisitors,
   });
 
   const searchBookingsByDate = data?.bookings || [];
