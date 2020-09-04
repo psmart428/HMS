@@ -20,7 +20,6 @@ export const roomSchema = Yup.object({
         try {
           const exists = await roomRepository.ExistsByRoomNumber(value, roomId);
 
-          return !exists;
         } catch {
           return true;
         }
