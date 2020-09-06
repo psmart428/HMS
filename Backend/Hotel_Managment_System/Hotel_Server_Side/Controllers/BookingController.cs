@@ -420,7 +420,6 @@ namespace Hotel_Server_Side.Controllers
             }
             catch (Exception ex)
             {
-                _Logger.LogError(ex, "An error occurred while getting Booking.");
                 return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred while processing your request.");
             }
         }

@@ -73,7 +73,6 @@ namespace HotelDataAceess.Migrations
                         .HasColumnType("nvarchar(65)");
 
                     b.Property<int>("PersonId")
-                        .HasColumnType("int")
                         .HasColumnName("PersonID");
 
                     b.Property<string>("Role")
