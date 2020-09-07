@@ -25,7 +25,6 @@ export default function Dashboard() {
   )
     return <Spinner />;
 
-  return (
     <div
       className="
         content-section
