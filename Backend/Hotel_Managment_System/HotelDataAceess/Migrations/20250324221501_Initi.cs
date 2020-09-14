@@ -104,7 +104,6 @@ namespace HotelDataAceess.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK__Users__1788CCACB0319B20", x => x.UserID);
                     table.ForeignKey(
                         name: "FK__Users__PersonID__4CA06362",
                         column: x => x.PersonID,
