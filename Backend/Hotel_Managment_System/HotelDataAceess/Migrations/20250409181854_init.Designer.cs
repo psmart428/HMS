@@ -192,6 +192,7 @@ namespace HotelDataAceess.Migrations
                     b.Property<DateTime>("BirthDate")
                         .HasColumnType("datetime");
 
+                    b.Property<string>("FullName")
                         .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");

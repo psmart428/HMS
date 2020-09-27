@@ -19,6 +19,7 @@ namespace HotelDataAceess.Configrations
 
             builder.Property(e => e.RoomTypeId).HasColumnName("RoomTypeID");
             builder.Property(e => e.RoomTypeDescription).HasMaxLength(500);
+            builder.Property(e => e.RoomTypePricePerNight).HasColumnType("smallmoney");
             builder.Property(e => e.RoomTypeTitle).HasMaxLength(50);
 
         }
