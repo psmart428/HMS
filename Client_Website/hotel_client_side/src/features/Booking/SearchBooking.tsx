@@ -147,7 +147,6 @@ function SearchBooking() {
                 Search Available Rooms
               </Button>
             </div>
-          </form>
         </div>
       </div>
     </div>

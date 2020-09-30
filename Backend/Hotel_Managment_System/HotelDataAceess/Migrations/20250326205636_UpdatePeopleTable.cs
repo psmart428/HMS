@@ -55,7 +55,6 @@ namespace HotelDataAceess.Migrations
         {
             migrationBuilder.AddColumn<bool>(
                 name: "IsActive",
-                table: "Users",
                 type: "bit",
                 nullable: false,
                 defaultValue: false);
