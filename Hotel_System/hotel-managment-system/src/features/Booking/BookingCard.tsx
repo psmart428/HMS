@@ -50,6 +50,7 @@ export default function BookingCard({
       <Field
         FieldName="Guest Name"
         icon="fas fa-user text-gray-500"
+        value={fullName}
       />
 
       <Field
