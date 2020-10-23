@@ -30,6 +30,7 @@ export default function UserForMobile({ allUsers }: Data) {
               }}
             >
               <i className="fas fa-eye mr-1"></i>View
+            </button>
             <button
               className="text-green-600 dark:text-green-400 hover:text-green-800 dark:hover:text-green-300 text-sm"
               onClick={() => {
