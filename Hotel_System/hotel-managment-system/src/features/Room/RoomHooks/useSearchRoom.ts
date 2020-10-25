@@ -41,7 +41,6 @@ export function useSearchRoom() {
   });
 
   const searchRooms = data?.rooms || [];
-  const countSearchRooms: number = data?.count || 0;
 
   useEffect(() => {
     if (pageNumber < Math.ceil(countSearchRooms / PAGE_SIZE)) {
