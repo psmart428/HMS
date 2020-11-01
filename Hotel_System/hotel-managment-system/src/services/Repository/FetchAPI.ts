@@ -88,7 +88,6 @@ async function refreshTokenAndRetry(
   if (!refreshResponse.ok) {
     logout();
 
-    throw new Error("Refresh token expired");
   }
 
   const data = await refreshResponse.json();
