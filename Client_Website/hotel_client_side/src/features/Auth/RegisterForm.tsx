@@ -10,7 +10,6 @@ import {
   required,
   validateBirthdateRule,
   validateConfirmPasswordRule,
-  validateCountryRule,
   validateEmailRuleForRegister,
   validateGenderRule,
   validatePasswordRule,
