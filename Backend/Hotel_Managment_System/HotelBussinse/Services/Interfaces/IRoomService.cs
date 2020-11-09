@@ -17,5 +17,6 @@ namespace HotelBussinse.Services.Interfaces
         Task<IEnumerable<RoomDto>> PagerRoomUsingPageNumber(short pageNumber, int pageSize, string column, string value, string Operations);
         Task<bool> UpdateRoomAvailabilityStatus(int id, short availabilityStatus);
         Task<(IEnumerable<RoomDto>, int count)> SearchAvailableRooms(short pageNumber, int pageSize, string roomType, DateTime checkIn, DateTime checkOut, short GuestNumber);
+        Task<int> GetCountActiveRoom();
     }
 }
