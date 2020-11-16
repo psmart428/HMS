@@ -309,6 +309,7 @@ namespace HotelDataAceess.Migrations
 
             modelBuilder.Entity("HotelDataAceess.Entiteis.RoomType", b =>
                 {
+                    b.Property<int>("RoomTypeId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasColumnName("RoomTypeID");
