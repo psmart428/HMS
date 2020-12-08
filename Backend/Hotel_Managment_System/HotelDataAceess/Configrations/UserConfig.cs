@@ -22,6 +22,7 @@ namespace HotelDataAceess.Configrations
             builder.Property(e => e.UserId).HasColumnName("UserID");
             builder.Property(e => e.Password).HasMaxLength(65);
             builder.Property(e => e.PersonId).HasColumnName("PersonID");
+            builder.Property(e => e.Email).HasMaxLength(100);
             builder.Property(e => e.Role).HasMaxLength(20).HasDefaultValue("Guest");
 
             builder.HasOne(d => d.Person).WithOne(p => p.User)

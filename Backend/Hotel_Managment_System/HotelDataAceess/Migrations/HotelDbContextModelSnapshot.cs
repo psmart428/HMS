@@ -245,6 +245,7 @@ namespace HotelDataAceess.Migrations
                     b.Property<string>("RoomImageUrl")
                         .IsRequired()
                         .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
 
                     b.Property<string>("RoomNumber")
                         .IsRequired()
