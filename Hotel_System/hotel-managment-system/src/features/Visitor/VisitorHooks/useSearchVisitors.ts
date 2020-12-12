@@ -30,6 +30,7 @@ export function useSearchVisitors() {
       const [count, persons] = await Promise.all([
         _personRepository.count("CountPersons", column, value, operation),
         _personRepository.getPersonsUsingPageNumber(
+          pageNumber,
           PAGE_SIZE,
           column,
           value,
