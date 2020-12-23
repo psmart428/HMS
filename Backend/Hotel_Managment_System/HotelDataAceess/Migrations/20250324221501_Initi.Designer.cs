@@ -40,7 +40,6 @@ namespace HotelDataAceess.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<DateTime?>("RevokedOn")
-                        .HasColumnType("datetime2");
 
                     b.Property<string>("Token")
                         .IsRequired()
