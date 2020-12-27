@@ -28,6 +28,7 @@ export default function ListOfVisitors({ allVisitors }: Data) {
             <button
               onClick={() => {
                 setOpenId(v.personId);
+                setModalType("view");
               }}
               className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300"
             >
