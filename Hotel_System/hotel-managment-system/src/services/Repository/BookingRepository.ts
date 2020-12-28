@@ -5,7 +5,6 @@ import { GenericRepository } from "./GenericRepository";
 
 export class BookingRepository extends GenericRepository<Booking> {
   constructor(apiUrl: string = `${BASE_URL}/Booking`) {
-    super(apiUrl);
   }
 
   async getAllBookingsByPersonID(id: number): Promise<Booking[]> {
