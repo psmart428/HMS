@@ -396,6 +396,7 @@ namespace HotelDataAceess.Migrations
                         .WithMany("People")
                         .HasForeignKey("NationalityCountryId")
                         .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired()
                         .HasConstraintName("FK__People__National__3B75D760");
 
                     b.Navigation("NationalityCountry");
