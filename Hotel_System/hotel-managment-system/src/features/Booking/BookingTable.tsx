@@ -66,6 +66,7 @@ export default function BookingTable() {
                   ? searchBookings
                   : searchBookingsByDate.length
                     ? searchBookingsByDate
+                    : bookings
               }
             />
           </tbody>
