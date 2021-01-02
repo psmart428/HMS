@@ -24,7 +24,6 @@ export default function ListOfRoomTypes({ allRoomTypes }: Data) {
           <td className="px-6 py-4 whitespace-nowrap text-sm font-medium space-x-2">
             <button
               onClick={() => {
-                setOpenId(r.roomTypeId);
                 setModalType("view");
               }}
               className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300"
