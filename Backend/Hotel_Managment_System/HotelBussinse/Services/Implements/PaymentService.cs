@@ -25,6 +25,7 @@ namespace HotelBussinse.Services.Implements
             return PaymentsDto;
         }
 
+        public async Task<PaymentDto> GetByIdAsync(int id)
         {
             var Payment = await _paymentRepository.GetByIdAsync(id)
                 ?? null;
