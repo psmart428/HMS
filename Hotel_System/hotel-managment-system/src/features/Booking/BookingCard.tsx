@@ -61,7 +61,6 @@ export default function BookingCard({
 
       <Field
         FieldName="Room Type"
-        icon="fas fa-bed text-cyan-500"
         value={roomTypeName}
       />
 
