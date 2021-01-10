@@ -124,5 +124,6 @@ namespace HotelBussinse.Services.Implements
         }
         public async Task<bool> IsRoomAvailableByAvailabilityStatus(int roomId) => await _roomRepository.IsRoomAvailableByAvailabilityStatus(roomId);
 
+        public async Task<int> GetCountActiveRoom() => await _roomRepository.GetCountActiveRoom();
     }
 }
