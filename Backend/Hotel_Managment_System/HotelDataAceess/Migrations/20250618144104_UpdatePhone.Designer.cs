@@ -300,7 +300,6 @@ namespace HotelDataAceess.Migrations
 
             modelBuilder.Entity("HotelDataAceess.Entiteis.Views.BookingView", b =>
                 {
-                    b.Property<int>("BookingId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("CheckInDate")

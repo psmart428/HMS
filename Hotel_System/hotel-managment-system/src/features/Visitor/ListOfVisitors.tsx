@@ -32,7 +32,6 @@ export default function ListOfVisitors({ allVisitors }: Data) {
               }}
               className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300"
             >
-              <i className="fas fa-eye mr-1"></i>View
             </button>
             <button
               onClick={() => {
