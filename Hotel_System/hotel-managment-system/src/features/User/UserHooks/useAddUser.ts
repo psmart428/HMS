@@ -8,6 +8,7 @@ function useAddUser() {
   const queryClient = useQueryClient();
 
   const userRepository = new UserRepository();
+  const personRepository = new PersonRepository();
 
   const { mutateAsync: AddUserAsync, isPending } = useMutation({
     mutationFn: async ({ newUser }: { newUser: User }) => {
