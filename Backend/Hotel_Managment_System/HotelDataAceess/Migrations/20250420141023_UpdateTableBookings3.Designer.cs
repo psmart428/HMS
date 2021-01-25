@@ -59,7 +59,6 @@ namespace HotelDataAceess.Migrations
             modelBuilder.Entity("HotelDataAceess.Entiteis.Authentication.User", b =>
                 {
                     b.Property<int>("UserId")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasColumnName("UserID");
 

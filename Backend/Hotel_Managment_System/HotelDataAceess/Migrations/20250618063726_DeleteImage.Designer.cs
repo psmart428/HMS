@@ -113,7 +113,6 @@ namespace HotelDataAceess.Migrations
                     b.Property<int>("PersonId")
                         .HasColumnType("int");
 
-                    b.Property<int>("RoomId")
                         .HasColumnType("int");
 
                     b.Property<byte>("Status")
