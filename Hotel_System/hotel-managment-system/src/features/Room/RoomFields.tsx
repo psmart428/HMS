@@ -149,6 +149,7 @@ export default function RoomFields({
         <Label name="Additional Notes" />
 
         <textarea
+          {...register("additionalNotes")}
           disabled={isPending}
           rows={4}
           className="
