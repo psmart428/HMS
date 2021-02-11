@@ -25,7 +25,6 @@ namespace HotelDataAceess.Migrations
                 oldNullable: true);
 
             migrationBuilder.CreateIndex(
-                name: "UQ__Users__AA2FFB84A120F0B3",
                 table: "Users",
                 column: "PersonID",
                 unique: true);
