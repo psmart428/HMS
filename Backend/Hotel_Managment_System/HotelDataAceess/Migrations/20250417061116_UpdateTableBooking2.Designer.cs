@@ -393,6 +393,7 @@ namespace HotelDataAceess.Migrations
             modelBuilder.Entity("HotelDataAceess.Entiteis.Person", b =>
                 {
                     b.HasOne("HotelDataAceess.Entiteis.Country", "NationalityCountry")
+                        .WithMany("People")
                         .HasForeignKey("NationalityCountryId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired()
