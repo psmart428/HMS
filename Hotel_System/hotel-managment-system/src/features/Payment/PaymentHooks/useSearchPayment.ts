@@ -41,6 +41,7 @@ export function useSearchPayment() {
       ]);
       return { count, payments };
     },
+    enabled: shouldFetchVisitors,
   });
 
   const searchPayments = data?.payments || [];
