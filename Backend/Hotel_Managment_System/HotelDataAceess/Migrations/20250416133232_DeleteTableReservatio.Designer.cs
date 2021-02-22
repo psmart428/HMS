@@ -276,6 +276,7 @@ namespace HotelDataAceess.Migrations
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)");
 
+                    b.Property<decimal>("RoomTypePricePerNight")
                         .HasColumnType("smallmoney");
 
                     b.Property<string>("RoomTypeTitle")
