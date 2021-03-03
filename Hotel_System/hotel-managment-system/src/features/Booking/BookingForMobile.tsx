@@ -60,6 +60,7 @@ export default function BookingForMobile({ allBookings: allBookings }: Data) {
             >
               <i className="fas fa-trash mr-1"></i>Delete
             </button>
+          </div>
         </div>
       ))}
     </div>
