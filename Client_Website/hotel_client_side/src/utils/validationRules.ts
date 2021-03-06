@@ -28,6 +28,7 @@ export function validatePasswordRule(
 }
 
 export function validateConfirmPasswordRule(
+  getValues: () => FieldValues
 ): RegisterOptions<RegisterValues, "confirmPassword"> {
   return {
     required: "Confirm Password is required",
