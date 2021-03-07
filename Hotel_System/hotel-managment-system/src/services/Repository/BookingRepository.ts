@@ -17,7 +17,6 @@ export class BookingRepository extends GenericRepository<Booking> {
 
   async getBookingUsingPageNumber(
     pageNumber: number,
-    pageSize: number,
     column: string,
     value: string,
     Operations: string,
