@@ -246,6 +246,7 @@ namespace HotelDataAceess.Migrations
                         .HasColumnType("int")
                         .HasColumnName("ReservationPersonID");
 
+                    b.Property<int>("RoomId")
                         .HasColumnType("int")
                         .HasColumnName("RoomID");
 
