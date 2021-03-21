@@ -443,7 +443,6 @@ namespace HotelDataAceess.Migrations
                     b.Navigation("RefreshTokens");
                 });
 
-            modelBuilder.Entity("HotelDataAceess.Entiteis.Booking", b =>
                 {
                     b.Navigation("Payment")
                         .IsRequired();
