@@ -195,6 +195,7 @@ namespace HotelDataAceess.Migrations
                         .HasColumnType("nvarchar(100)");
 
                     b.Property<byte>("Gender")
+                        .HasColumnType("tinyint");
 
                     b.Property<int>("NationalityCountryId")
                         .HasColumnType("int")
@@ -443,6 +444,7 @@ namespace HotelDataAceess.Migrations
                     b.Navigation("RefreshTokens");
                 });
 
+            modelBuilder.Entity("HotelDataAceess.Entiteis.Booking", b =>
                 {
                     b.Navigation("Payment")
                         .IsRequired();
