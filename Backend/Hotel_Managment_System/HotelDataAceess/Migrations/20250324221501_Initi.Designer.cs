@@ -333,7 +333,6 @@ namespace HotelDataAceess.Migrations
 
                     b.Property<string>("RoomTypeDescription")
                         .HasMaxLength(500)
-                        .HasColumnType("nvarchar(500)");
 
                     b.Property<decimal>("RoomTypePricePerNight")
                         .HasColumnType("smallmoney");
