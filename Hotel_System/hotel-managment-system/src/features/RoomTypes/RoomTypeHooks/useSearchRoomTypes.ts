@@ -74,6 +74,7 @@ export function useSearchRoomTypes() {
         queryKey: [
           "searchRoomType",
           pageNumber - 1,
+          PAGE_SIZE,
           value,
           column,
           operation,
