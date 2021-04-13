@@ -54,6 +54,7 @@ export default function RoomTypeTable() {
               }
             />
           </tbody>
+        </table>
       </div>
       <RoomTypeForMobile
         allRoomTypes={searchRoomTypes.length ? searchRoomTypes : roomTypes}
