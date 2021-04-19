@@ -78,6 +78,7 @@ namespace HotelDataAceess.Migrations
                 fixedLength: true,
                 maxLength: 1,
                 nullable: false,
+                oldClrType: typeof(byte),
                 oldType: "tinyint");
 
             migrationBuilder.AlterColumn<string>(
