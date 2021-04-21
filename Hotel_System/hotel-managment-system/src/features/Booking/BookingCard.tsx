@@ -10,6 +10,7 @@ export default function BookingCard({
   roomTypeName,
   totalPrice,
 }: {
+  bookingDetails: Booking | undefined;
   bookingId: number | undefined;
   fullName: string | undefined;
   roomNumber: string | undefined;
