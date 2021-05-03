@@ -63,6 +63,7 @@ namespace HotelDataAceess.Migrations
                         .HasColumnType("int")
                         .HasColumnName("UserID");
 
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserId"));
 
                     b.Property<string>("Email")
                         .IsRequired()

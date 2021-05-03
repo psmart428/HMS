@@ -12,6 +12,7 @@ export const addBooking = createAsyncThunk(
 const bookingSlice = createSlice({
   name: "bookings",
   initialState: {
+    booking: {},
     status: "idle",
     error: null as string | null,
   },
