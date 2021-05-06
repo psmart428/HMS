@@ -22,6 +22,7 @@ namespace HotelDataAceess.Configrations
             builder.Property(e => e.AdditionalNotes).HasMaxLength(500);
             builder.Property(e => e.RoomNumber).HasMaxLength(10);
             builder.Property(e => e.RoomSize).HasColumnType("decimal(6, 2)");
+            builder.Property(e => e.RoomTypeId).HasColumnName("RoomTypeID");
             builder.Property(e => e.RoomImageUrl).HasMaxLength(500);
             builder.Property(e => e.AvailabilityStatus)
             .HasConversion(
