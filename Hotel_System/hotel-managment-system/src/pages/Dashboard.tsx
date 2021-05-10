@@ -203,6 +203,7 @@ export default function Dashboard() {
           bg-purple-100
           p-5
           transition
+          hover:scale-105
           dark:bg-purple-900
         "
             >
