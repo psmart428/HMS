@@ -103,7 +103,6 @@ namespace HotelDataAceess.Migrations
                         .HasColumnType("int")
                         .HasColumnName("BookingID");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("BookingId"));
 
                     b.Property<DateTime>("CheckInDate")
                         .HasColumnType("datetime");
