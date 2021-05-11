@@ -24,7 +24,6 @@ namespace HotelDataAceess.Migrations
 
             migrationBuilder.DropColumn(
                 name: "ReservationID",
-                table: "Bookings");
         }
 
         /// <inheritdoc />

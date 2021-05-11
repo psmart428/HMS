@@ -5,7 +5,6 @@ import { Operations, PAGE_SIZE } from "../../../utils/constants";
 import { BookingRepository } from "../../../services/Repository/BookingRepository";
 
 export function useSearchBooking() {
-  const queryClient = useQueryClient();
   const [searchParams] = useSearchParams();
 
   const bookingRepository = useMemo(() => new BookingRepository(), []);
