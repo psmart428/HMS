@@ -15,6 +15,7 @@ export default function VisitorTable() {
     searchVisitors,
     countSearchVisitors,
   } = useSearchVisitors();
+  const [searchParams] = useSearchParams();
 
   const value: string = searchParams.get("visitorSearch") || "";
 
