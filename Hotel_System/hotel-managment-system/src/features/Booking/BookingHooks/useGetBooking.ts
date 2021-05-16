@@ -12,6 +12,7 @@ export function useGetBooking(
     error,
   } = useQuery({
     queryKey: ["bookings", bookingId],
+    queryFn: () => bookingRepository.getById("FindBooking", bookingId),
     enabled: !!bookingId && (modalType === "view" || modalType === "update"),
   });
   return { isLoading, error, bookingDetails };
