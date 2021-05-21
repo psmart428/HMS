@@ -43,6 +43,7 @@ export default function UpdateBooking() {
       rounded-2xl
       bg-white dark:bg-gray-800
       shadow-2xl
+      border border-gray-200 dark:border-gray-700
     "
         onClick={isPending ? undefined : (e) => e.stopPropagation()}
       >
