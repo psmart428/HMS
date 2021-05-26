@@ -188,7 +188,6 @@ namespace HotelDataAceess.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PersonId"));
 
-                    b.Property<DateTime>("BirthDate")
                         .HasColumnType("datetime");
 
                     b.Property<string>("FullName")
