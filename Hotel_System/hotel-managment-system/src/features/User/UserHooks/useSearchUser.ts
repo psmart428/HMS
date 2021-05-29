@@ -14,6 +14,7 @@ export function useSearchUser() {
   const operation: string =
     column === "userId" ? Operations.EQUAL : Operations.STARTS_WITH;
 
+  const shouldFetchUsers = value !== "";
 
   const pageNumber = Number(searchParams.get("page")) || 1;
   const { isLoading, data, error } = useQuery({
