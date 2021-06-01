@@ -22,7 +22,6 @@ function GuestNumber({
       </Label>
       <select
         id="guests"
-        className="w-full p-3 border border-gray-300 rounded-md"
         {...register(
           "guests",
           isBookingForm
