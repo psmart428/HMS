@@ -5,6 +5,7 @@ interface Data {
   allRoomTypes: RoomTypeView[];
 }
 const className =
+  "px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 dark:text-white";
 export default function ListOfRoomTypes({ allRoomTypes }: Data) {
   const { setModalType, setOpenId } = useModuleContext();
 
