@@ -18,6 +18,7 @@ export default function RoomOperation() {
     <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
       <div className="w-full lg:max-w-md">
         <InputSearch nameOfSearch="roomSearch" />
+      </div>
 
       <div
         className="
