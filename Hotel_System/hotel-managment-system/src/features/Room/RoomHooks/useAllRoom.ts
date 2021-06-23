@@ -20,6 +20,7 @@ export function useAllRoom() {
       const [count, rooms] = await Promise.all([
         roomRepository.count("CountRoom", column, filterValue, operation),
         roomRepository.getRoomUsingPageNumber(
+          pageNumber,
           PAGE_SIZE,
           column,
           filterValue,
