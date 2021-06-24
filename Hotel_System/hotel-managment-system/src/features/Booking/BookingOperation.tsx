@@ -34,6 +34,7 @@ export default function BookingOperation() {
           <SearchBy
             options={[
               { value: "", label: "Select any Field" },
+              { value: "bookingId", label: "Booking Id" },
               { value: "date", label: "By Date" },
               { value: "status", label: "Status" },
               { value: "fullName", label: "Guest Name" },

@@ -27,6 +27,7 @@ export default function BookingForMobile({ allBookings: allBookings }: Data) {
               : "-"}
           </div>
           <div className={className}>Status: {b.status}</div>
+          <div className={className}>Full Name: {b.fullName}</div>
           <div className={className}>Country: {b.countryName}</div>
           <div className={className}>Paid Amount: {b.paidAmount}</div>
           <div className={className}>Room Number: {b.roomNumber}</div>
