@@ -44,6 +44,7 @@ export default function RoomDetails() {
             </div>
 
             <h4 className="text-2xl font-bold text-gray-800 dark:text-white">
+              {roomDetails?.roomNumber || "???"}
             </h4>
           </div>
 
