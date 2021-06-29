@@ -132,7 +132,6 @@ namespace HotelDataAceess.Migrations
                     table.PrimaryKey("PK__Reservat__B7EE5F04B141DD12", x => x.ReservationID);
                     table.ForeignKey(
                         name: "FK__Reservati__Reser__5BE2A6F2",
-                        column: x => x.ReservationPersonID,
                         principalTable: "People",
                         principalColumn: "PersonID",
                         onDelete: ReferentialAction.Restrict);
