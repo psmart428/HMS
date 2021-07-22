@@ -425,6 +425,7 @@ namespace HotelDataAceess.Migrations
 
             modelBuilder.Entity("HotelDataAceess.Entiteis.Booking", b =>
                 {
+                    b.Navigation("Payment")
                         .IsRequired();
                 });
 
