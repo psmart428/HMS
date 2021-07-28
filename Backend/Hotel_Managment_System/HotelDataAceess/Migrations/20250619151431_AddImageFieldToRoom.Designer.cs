@@ -84,6 +84,7 @@ namespace HotelDataAceess.Migrations
                         .ValueGeneratedOnAdd()
                         .HasMaxLength(20)
                         .HasColumnType("nvarchar(20)")
+                        .HasDefaultValue("Guest");
 
                     b.HasKey("UserId")
                         .HasName("PK__Users__1788CCACB0319B20");
