@@ -20,7 +20,6 @@ namespace HotelDataAceess.Repository.Implements
 
             return await query
                             .OrderByDescending(p => p.PaymentId)
-                            .Skip((pageNumber - 1) * pageSize)
                             .Take(pageSize)
                             .AsNoTracking()
                             .ToListAsync();
