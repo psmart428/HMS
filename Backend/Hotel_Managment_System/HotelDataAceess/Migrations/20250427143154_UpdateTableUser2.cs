@@ -27,6 +27,7 @@ namespace HotelDataAceess.Migrations
             migrationBuilder.AddForeignKey(
                 name: "FK_RefreshTokens_Users_UserId",
                 table: "RefreshTokens",
+                column: "UserId",
                 principalTable: "Users",
                 principalColumn: "UserID",
                 onDelete: ReferentialAction.Restrict);
