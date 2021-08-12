@@ -11,7 +11,6 @@ using System.Threading.Tasks;
 
 namespace HotelBussinse.Mappers.MaooerEnums
 {
-    public class AvailabilityValueResolver : IValueResolver<CreateOrUpdateRoomDto, Room, AvailabilityStatus>
     {
         public AvailabilityStatus Resolve(CreateOrUpdateRoomDto source, Room destination, AvailabilityStatus destMember, ResolutionContext context)
         {
