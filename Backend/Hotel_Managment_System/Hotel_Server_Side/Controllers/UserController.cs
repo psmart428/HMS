@@ -250,6 +250,7 @@ namespace Hotel_Server_Side.Controllers
             {
                 if (HelperMethod.IsInvalidId(id))
                 {
+                    return BadRequest("Id must be greater than zero.");
                 }
                 bool IsFound = await UserService.ExistsAsync(id);
 
