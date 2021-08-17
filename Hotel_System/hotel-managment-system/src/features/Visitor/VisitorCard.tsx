@@ -43,5 +43,6 @@ export default function VisitorCard({
           )?.countryName
         }
       />
+    </div>
   );
 }
