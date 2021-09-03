@@ -36,6 +36,7 @@ function RegisterForm() {
           gender: data.gender,
           birthDate: data.birthDate,
           phone: data.phone,
+          nationalityCountryId: Number(data.country),
         },
         newUser: {
           personId: 0,
