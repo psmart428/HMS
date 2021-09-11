@@ -129,7 +129,6 @@ export default function VisitorModal({
           {errors.nationalityCountryId && (
             <Error message={errors.nationalityCountryId} />
           )}
-        </div>
 
         <div>
           <Label name="Birth Date" />
