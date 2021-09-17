@@ -28,6 +28,7 @@ export default function RoomCard({
       />
 
       <Field
+        FieldName="Floor"
         icon="fas fa-layer-group text-purple-500"
         value={roomDetails?.roomFloor?.toString()}
       />

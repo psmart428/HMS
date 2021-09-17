@@ -50,6 +50,7 @@ export function useAllRoom() {
             PAGE_SIZE,
             column,
             filterValue,
+            operation,
           ),
       });
     }
