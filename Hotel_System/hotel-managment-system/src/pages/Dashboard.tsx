@@ -17,6 +17,7 @@ export default function Dashboard() {
 
   if (
     isLoading2 ||
+    isLoading3 ||
     isLoading4 ||
     isLoading5 ||
     isLoading7 ||
