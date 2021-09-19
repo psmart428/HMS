@@ -136,7 +136,6 @@ export default function BookingFields({
               styles={{
                 control: (base, state) => ({
                   ...base,
-                  minHeight: "50px",
                   borderRadius: "14px",
                   borderColor: state.isFocused ? "#3b82f6" : "#d1d5db",
                   boxShadow: state.isFocused
