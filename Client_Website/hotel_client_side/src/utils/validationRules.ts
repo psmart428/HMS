@@ -171,7 +171,6 @@ export function validateRoomTypeRule(): RegisterOptions<
   "roomType"
 > {
   return {
-    validate: (value: string) =>
       value.trim() === "Select room type"
         ? "You must choice the Type of rooms"
         : true,

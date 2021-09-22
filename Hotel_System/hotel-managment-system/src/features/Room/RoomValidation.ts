@@ -8,7 +8,6 @@ export const roomSchema = Yup.object({
 
   roomNumber: Yup.string()
     .required("Room Number is required")
-    .test(
       "unique-room-number",
       "Room number already exists",
       async function (value) {
