@@ -56,7 +56,6 @@ export default function UpdateVisitor() {
         <div className="overflow-y-auto max-h-[95vh]">
           <div className="p-4 sm:p-6">
             <HeaderOfModals
-              icon="fas fa-user-circle text-blue-500 text-3xl"
               description="Update Visitor"
             />
             <VisitorForm
