@@ -40,6 +40,7 @@ namespace HotelDataAceess.Migrations
 
             migrationBuilder.AlterColumn<int>(
                 name: "PersonID",
+                table: "Users",
                 type: "int",
                 nullable: true,
                 oldClrType: typeof(int),
