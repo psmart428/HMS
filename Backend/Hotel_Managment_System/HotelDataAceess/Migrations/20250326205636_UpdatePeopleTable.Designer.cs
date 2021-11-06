@@ -153,6 +153,7 @@ namespace HotelDataAceess.Migrations
                 {
                     b.Property<int>("PaymentId")
                         .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
                         .HasColumnName("PaymentID");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PaymentId"));
