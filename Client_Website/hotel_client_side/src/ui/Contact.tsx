@@ -61,6 +61,7 @@ function Contact() {
                     href="https://www.google.com/maps?q=24.7136,46.6753"
                   >
                     <button className="gradient-gold text-white px-8 py-3 text-lg font-semibold rounded-md hover:shadow-lg transition-all duration-300">
+                      View on Map
                     </button>
                   </a>
                 </div>
