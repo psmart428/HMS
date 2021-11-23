@@ -86,6 +86,7 @@ namespace HotelBussinse.Services.Implements
         public async Task<bool> ExistsAsync(int id) => await _roomTypeRepository.ExistsAsync(id);
         public async Task<IEnumerable<RoomTypeDto>> PagerRoomTypeUsingPageNumber(short pageNumber, int pageSize, string column, string value, string Operations)
         {
+            IEnumerable<RoomType> RoomTypes;
 
             if (!string.IsNullOrEmpty(column) && !string.IsNullOrEmpty(value) && !string.IsNullOrEmpty(Operations))
             {
