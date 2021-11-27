@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace HotelBussinse.DTOs.DTOViews
 {
-    public class BookingViewDto
     {
         public int BookingId { get; set; }
         public DateTime CheckInDate { get; set; }
