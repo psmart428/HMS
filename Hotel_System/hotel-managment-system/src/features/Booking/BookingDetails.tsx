@@ -7,7 +7,6 @@ import BookingCard from "./BookingCard";
 import { useGetBooking } from "./BookingHooks/useGetBooking";
 
 export default function BookingDetails() {
-  const { onCloseModuleMenu, modalType, openId } = useModuleContext();
   const { isLoading, bookingDetails } = useGetBooking(openId, modalType);
   const { isLoading: isLoading2, visitorDetails } = useGetVisistor(
     bookingDetails?.personId,

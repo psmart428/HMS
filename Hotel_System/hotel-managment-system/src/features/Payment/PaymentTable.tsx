@@ -28,7 +28,6 @@ export default function PaymentTable() {
   } else if (!payments.length)
     return <EmptyData message="No Payments in database" />;
 
-  return (
     <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm overflow-hidden p-4">
       <div className="hidden md:block overflow-x-auto">
         <table className="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
