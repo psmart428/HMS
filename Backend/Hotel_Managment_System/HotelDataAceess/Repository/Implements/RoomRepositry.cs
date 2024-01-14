@@ -26,6 +26,7 @@ namespace HotelDataAceess.Repository.Implements
                            .Include(p => p.RoomType)
                            .OrderByDescending(r => r.RoomId)
                           .Skip((pageNumber - 1) * pageSize)
+                          .Take(pageSize)
                           .AsNoTracking()
                           .ToListAsync();
 
