@@ -8,6 +8,7 @@ type MobileNavbarProps = {
 };
 
 function MobileNavbar({ Show, setShow }: MobileNavbarProps) {
+  const { logout } = useLogout();
   const curruentSessoinjson = localStorage.getItem("session") || "";
   let curruentSessoin: sessionData | undefined;
   if (curruentSessoinjson) {
