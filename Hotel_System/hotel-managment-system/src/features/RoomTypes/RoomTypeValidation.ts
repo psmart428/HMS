@@ -5,6 +5,7 @@ export const roomTypeSchema = Yup.object({
   roomTypeDescription: Yup.string().required(
     "Room Type Description is required"
   ),
+  roomTypeCapacity: Yup.number().required("Room Type Capacity is required"),
   roomTypePricePerNight: Yup.number().required(
     "roomType Price Per Night is required"
   ),
