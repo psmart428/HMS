@@ -80,7 +80,6 @@ function Header({
                 <i className="fas fa-chevron-down hidden text-xs text-gray-500 sm:block"></i>
               </button>
 
-              {open && (
                 <div className="absolute right-0 mt-2 w-56 overflow-hidden rounded-xl border border-gray-200 bg-white shadow-lg dark:border-gray-700 dark:bg-gray-800">
                   <button
                     className="flex w-full items-center px-4 py-3 text-sm text-gray-700 transition hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700"
