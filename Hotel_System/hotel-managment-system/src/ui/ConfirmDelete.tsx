@@ -9,6 +9,7 @@ interface Props<T> {
 }
 
 export default function ConfirmDelete<T>({
+  resourceName,
   onConfirm,
   isLoading,
   onCloseModal,

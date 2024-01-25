@@ -386,6 +386,7 @@ namespace HotelDataAceess.Migrations
             modelBuilder.Entity("HotelDataAceess.Entiteis.Payment", b =>
                 {
                     b.HasOne("HotelDataAceess.Entiteis.Booking", "Booking")
+                        .WithOne("Payment")
                         .HasForeignKey("HotelDataAceess.Entiteis.Payment", "BookingId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired()
