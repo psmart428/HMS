@@ -23,6 +23,7 @@ export class BookingRepository extends GenericRepository<Booking> {
     Operations: string,
   ): Promise<BookingView[]> {
     const allBookings: BookingView[] = await fetchData<BookingView[]>(
+      column !== "" && value !== "" && Operations !== ""
         ? `${this.apiUrl}/BookingUsingPageNumber/${pageNumber}/${pageSize}/${column}/${value}/${Operations}`
         : `${
             this.apiUrl
