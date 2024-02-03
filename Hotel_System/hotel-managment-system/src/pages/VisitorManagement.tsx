@@ -26,7 +26,6 @@ export default function VisitorManagement() {
             bg-white dark:bg-gray-800
             p-4 sm:p-5 lg:p-6
             shadow-sm
-            border border-gray-100 dark:border-gray-700
           "
         >
           <div
