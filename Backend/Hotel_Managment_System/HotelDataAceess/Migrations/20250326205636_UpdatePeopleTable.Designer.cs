@@ -119,6 +119,7 @@ namespace HotelDataAceess.Migrations
                         .HasColumnType("tinyint");
 
                     b.HasKey("BookingId")
+                        .HasName("PK__Bookings__73951ACD4C3DC9AF");
 
                     b.HasIndex("PersonId");
 
