@@ -49,7 +49,6 @@ namespace HotelBussinse.Services.Implements
 
         private RefreshToken GenerateRefreshToken()
         {
-            var randomNumber = new byte[32];
 
             using var generator = new RNGCryptoServiceProvider();
 
