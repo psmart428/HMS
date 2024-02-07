@@ -30,7 +30,6 @@ export default function UpdateBooking() {
       className="
     fixed inset-0 z-50
     flex items-center justify-center
-    bg-black/40 backdrop-blur-sm
     p-2 sm:p-4
   "
       onClick={isPending ? undefined : onCloseModuleMenu}
