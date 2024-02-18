@@ -342,6 +342,7 @@ namespace HotelDataAceess.Migrations
                 {
                     b.HasOne("HotelDataAceess.Entiteis.Authentication.User", "User")
                         .WithMany("RefreshTokens")
+                        .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
