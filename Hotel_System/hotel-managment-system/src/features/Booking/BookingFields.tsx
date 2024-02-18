@@ -109,6 +109,7 @@ export default function BookingFields({
     <>
       <input type="hidden" {...register("bookingId")} />
 
+      <div className="space-y-2">
         <Label name="Person Name" />
 
         <Controller
