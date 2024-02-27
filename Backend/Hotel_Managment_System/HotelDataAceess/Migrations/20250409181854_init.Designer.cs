@@ -476,7 +476,6 @@ namespace HotelDataAceess.Migrations
 
             modelBuilder.Entity("HotelDataAceess.Entiteis.Room", b =>
                 {
-                    b.Navigation("Reservations");
                 });
 
             modelBuilder.Entity("HotelDataAceess.Entiteis.RoomType", b =>
