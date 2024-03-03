@@ -66,6 +66,7 @@ function Footer() {
               <div className="w-10 h-10 bg-yellow-600 rounded-full flex items-center justify-center hover:bg-yellow-500 transition-colors cursor-pointer">
                 <span className="text-sm font-bold">
                   <FaTwitter />
+                </span>
               </div>
               <div className="w-10 h-10 bg-yellow-600 rounded-full flex items-center justify-center hover:bg-yellow-500 transition-colors cursor-pointer">
                 <span className="text-sm font-bold">

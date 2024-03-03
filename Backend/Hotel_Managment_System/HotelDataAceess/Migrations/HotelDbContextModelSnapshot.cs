@@ -404,6 +404,7 @@ namespace HotelDataAceess.Migrations
                     b.Navigation("NationalityCountry");
                 });
 
+            modelBuilder.Entity("HotelDataAceess.Entiteis.Room", b =>
                 {
                     b.HasOne("HotelDataAceess.Entiteis.RoomType", "RoomType")
                         .WithMany("Rooms")
