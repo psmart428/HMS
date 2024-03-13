@@ -18,7 +18,6 @@ namespace HotelBussinse.Services.Implements
 
             if (Persons == null || !Persons.Any())
             {
-                return Enumerable.Empty<PersonDto>();
             }
 
             var PersonsDto = _mapper.Map<IEnumerable<PersonDto>>(Persons);
