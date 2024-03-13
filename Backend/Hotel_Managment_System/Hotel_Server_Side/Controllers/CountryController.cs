@@ -138,6 +138,7 @@ namespace Hotel_Server_Side.Controllers
 
         }
 
+        [Authorize(Roles = "Admin,Employee")]
         [HttpDelete("DeleteCountry/{id}", Name = "DeleteCountry")]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
