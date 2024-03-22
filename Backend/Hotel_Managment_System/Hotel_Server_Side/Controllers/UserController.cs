@@ -148,7 +148,6 @@ namespace Hotel_Server_Side.Controllers
         [HttpPost("AddUser", Name = "AddUser")]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<ActionResult<UserDto>> Add(CreateOrUpdateUserDto newUser)
         {
             try
