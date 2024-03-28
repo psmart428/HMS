@@ -15,7 +15,6 @@ export interface User {
   personDto: Person;
   email: string;
   password: string;
-  role: string;
 }
 
 export interface Login {
