@@ -228,7 +228,6 @@ export default function Dashboard() {
             </NavLink>
           </div>
         </div>
-      </div>
     </div>
   );
 }
