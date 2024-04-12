@@ -15,6 +15,7 @@ interface ModuleContextType {
   openId: number;
   setOpenId: React.Dispatch<React.SetStateAction<number>>;
   modalType: ModalType;
+  setModalType: React.Dispatch<React.SetStateAction<ModalType>>;
   onCloseModuleMenu: () => void;
   isOpen: boolean;
   setIsOpen: React.Dispatch<React.SetStateAction<boolean>>;
