@@ -5,7 +5,6 @@ namespace HotelBussinse.Services.Interfaces
     public interface IRoomService
     {
         Task<IEnumerable<RoomDto>> GetAllAsync();
-        Task<RoomDto> GetByIdAsync(int id);
         Task<RoomDto> AddAsync(CreateOrUpdateRoomDto roomDto);
         Task<RoomDto> UpdateAsync(int id, CreateOrUpdateRoomDto roomDto);
         Task<bool> DeleteAsync(int id);
