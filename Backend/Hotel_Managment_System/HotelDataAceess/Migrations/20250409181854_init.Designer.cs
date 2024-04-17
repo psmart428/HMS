@@ -375,7 +375,6 @@ namespace HotelDataAceess.Migrations
                         .IsRequired();
 
                     b.HasOne("HotelDataAceess.Entiteis.Reservation", "Reservation")
-                        .WithOne("Booking")
                         .HasForeignKey("HotelDataAceess.Entiteis.Booking", "ReservationId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired()

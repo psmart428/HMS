@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Hotel_Server_Side.Controllers
 {
-    [Route("api/Hotel/RoomType")]
     [ApiController]
     public class RoomTypeeController(IRoomTrypeService roomTypeService, ILogger<RoomTypeeController> logger) : ControllerBase
     {
