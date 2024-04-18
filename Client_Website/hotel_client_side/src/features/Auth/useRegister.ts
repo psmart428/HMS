@@ -5,7 +5,6 @@ import toast from "react-hot-toast";
 
 type userObjects = {
   newUser: CreateUserDto;
-  newPerson: CreatePersonDto;
 };
 
 function usRegister() {
