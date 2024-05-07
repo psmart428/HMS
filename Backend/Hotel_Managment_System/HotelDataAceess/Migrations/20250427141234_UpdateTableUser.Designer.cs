@@ -299,6 +299,7 @@ namespace HotelDataAceess.Migrations
                     b.ToTable("RoomTypes");
                 });
 
+            modelBuilder.Entity("HotelDataAceess.Entiteis.Views.BookingView", b =>
                 {
                     b.Property<int>("BookingId")
                         .HasColumnType("int");
