@@ -362,7 +362,6 @@ namespace HotelDataAceess.Migrations
             modelBuilder.Entity("HotelDataAceess.Entiteis.Booking", b =>
                 {
                     b.HasOne("HotelDataAceess.Entiteis.Person", "Person")
-                        .WithMany("Bookings")
                         .HasForeignKey("PersonId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
