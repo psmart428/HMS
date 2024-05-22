@@ -32,6 +32,7 @@ export function useSearchPayment() {
       const [count, payments] = await Promise.all([
         paymentRepository.count("CountPayment", column, value, operation),
         paymentRepository.getPaymentsUsingPageNumber(
+          pageNumber,
           PAGE_SIZE,
           column,
           value,
