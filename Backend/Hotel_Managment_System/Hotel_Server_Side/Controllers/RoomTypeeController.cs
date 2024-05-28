@@ -217,7 +217,6 @@ namespace Hotel_Server_Side.Controllers
         {
             try
             {
-                if (HelperMethod.IsInvalidId(id))
                 {
                     return BadRequest("Id must be greater than zero.");
                 }
