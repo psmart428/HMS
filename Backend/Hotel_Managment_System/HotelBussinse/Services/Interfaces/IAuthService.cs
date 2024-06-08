@@ -13,6 +13,5 @@ namespace HotelBussinse.Services.Interfaces
         Task<UserDto> RegisterAsync(CreateOrUpdateUserDto userDto);
         Task<(string accessToken, string refreshToken)> SignIn(string email, string password);
         Task<(string newAccessToken, string newRefreshToken)> RefreshTokenAsync(string oldRefreshToken);
-        Task<bool> LogOut(string RefreshToken);
     }
 }

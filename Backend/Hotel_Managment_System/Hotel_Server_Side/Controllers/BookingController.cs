@@ -23,7 +23,6 @@ namespace Hotel_Server_Side.Controllers
         [ProducesResponseType(StatusCodes.Status403Forbidden)]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult<IEnumerable<BookingViewDto>>> GetAllBookings()
         {
             try
             {
