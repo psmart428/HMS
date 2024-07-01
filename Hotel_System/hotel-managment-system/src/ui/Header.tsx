@@ -35,6 +35,7 @@ function Header({
 
             <div className="flex items-center min-w-0">
               <div className="flex h-9 w-9 sm:h-10 sm:w-10 items-center justify-center rounded-lg bg-gradient-to-r from-blue-500 to-indigo-600 flex-shrink-0">
+                <i className="fas fa-hotel text-sm sm:text-base text-white"></i>
               </div>
 
               <h1 className="ml-2 truncate text-base sm:text-lg md:text-xl font-bold text-gray-900 dark:text-white">
