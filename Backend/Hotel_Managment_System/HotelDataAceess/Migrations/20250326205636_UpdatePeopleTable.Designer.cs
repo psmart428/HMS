@@ -132,6 +132,7 @@ namespace HotelDataAceess.Migrations
             modelBuilder.Entity("HotelDataAceess.Entiteis.Country", b =>
                 {
                     b.Property<int>("CountryId")
+                        .HasColumnType("int")
                         .HasColumnName("CountryID");
 
                     b.Property<string>("CountryName")
