@@ -356,7 +356,6 @@ namespace HotelDataAceess.Migrations
                         .OnDelete(DeleteBehavior.Restrict)
                         .HasConstraintName("FK__Users__PersonID__4CA06362");
 
-                    b.Navigation("Person");
                 });
 
             modelBuilder.Entity("HotelDataAceess.Entiteis.Booking", b =>
