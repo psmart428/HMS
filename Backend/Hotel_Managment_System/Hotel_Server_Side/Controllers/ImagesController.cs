@@ -65,7 +65,6 @@ namespace Hotel_Server_Side.Controllers
 
             var result = await _cloudinaryService.DeleteImage(ImageUrl);
 
-            return Ok(new { isDeleted = result });
 
         }
 
