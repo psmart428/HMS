@@ -23,4 +23,5 @@ public  class Person
 
     public virtual ICollection<Booking> Bookings { get; set; } = new List<Booking>();
 
+    public virtual User? User { get; set; }
 }
