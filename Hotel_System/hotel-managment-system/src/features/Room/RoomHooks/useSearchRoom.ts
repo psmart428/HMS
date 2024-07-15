@@ -23,7 +23,6 @@ export function useSearchRoom() {
 
   const pageNumber = Number(searchParams.get("page")) || 1;
   const { isLoading, data, error } = useQuery({
-    queryKey: ["searchRoom", pageNumber, PAGE_SIZE, column, value, operation],
     queryFn: async () => {
       const [count, rooms] = await Promise.all([
         roomRepository.count("CountRoom", column, value, operation),
