@@ -78,6 +78,7 @@ export function useAllPayment() {
             PAGE_SIZE,
             column,
             filterValue,
+            operation,
           ),
       });
     }
