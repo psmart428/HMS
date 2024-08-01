@@ -9,6 +9,7 @@ export const visitorSchema = Yup.object({
     .matches(/^\+?\d{7,15}$/, "Phone number is invalid")
     .required("Phone number is required"),
   gender: Yup.string()
+    .oneOf(["0", "1"], "Select Male or Female")
     .required("Gender is required"),
   nationalityCountryId: Yup.string().required("Country is required"),
   birthDate: Yup.date()

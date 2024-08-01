@@ -6,4 +6,5 @@ export async function getAllCountreis() {
   const data = await fetchData<CountryDto[]>(
     `${BASE_URL}countries/AllCountries`
   );
+  return data;
 }
