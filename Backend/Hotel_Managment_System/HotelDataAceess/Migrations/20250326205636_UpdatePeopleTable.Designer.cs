@@ -290,7 +290,6 @@ namespace HotelDataAceess.Migrations
                     b.Property<string>("RoomNumber")
                         .IsRequired()
                         .HasMaxLength(10)
-                        .HasColumnType("nvarchar(10)");
 
                     b.Property<decimal>("RoomSize")
                         .HasColumnType("decimal(6, 2)");
