@@ -15,6 +15,7 @@ import { useEffect } from "react";
 
 function SearchBooking() {
   const [searchParams, setSearchParams] = useSearchParams();
+  const { isLoading, rooms, countRooms } = useSearchRoom();
   const { isLoading: isLoading2, roomTypes } = useAllRoomType();
   const { setRooms, setCount, setRoomType } = useRoomMove();
   const { register, handleSubmit, getValues, formState } = useForm<FormValues>({
