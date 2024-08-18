@@ -16,7 +16,6 @@ export default function UserManagment() {
   return (
     <>
       <div className="space-y-5 sm:space-y-6">
-        <PageHeader
           nameOfPage="User Management"
           description="Manage hotel users and their information."
         />
