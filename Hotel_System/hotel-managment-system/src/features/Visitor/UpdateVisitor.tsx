@@ -62,6 +62,7 @@ export default function UpdateVisitor() {
             <VisitorForm
               initialData={visitorDetails}
               onSubmit={handleUpdate}
+              isPending={isPending}
               onCancel={onCloseModuleMenu}
               countries={countries}
             />
