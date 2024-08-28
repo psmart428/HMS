@@ -255,7 +255,6 @@ namespace HotelDataAceess.Migrations
                 table: "Reservations",
                 column: "ReservationPersonID");
 
-            migrationBuilder.CreateIndex(
                 name: "IX_Reservations_RoomID",
                 table: "Reservations",
                 column: "RoomID");
