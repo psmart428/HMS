@@ -33,6 +33,7 @@ namespace HotelBussinse.Services.Implements
 
         }
 
+        public async Task<(string newAccessToken, string newRefreshToken)> RefreshTokenAsync(string oldRefreshToken)
         {
             (string newAccessToken, string newRefreshToken) = await _authRepository.RefreshTokenAsync(oldRefreshToken);
 
