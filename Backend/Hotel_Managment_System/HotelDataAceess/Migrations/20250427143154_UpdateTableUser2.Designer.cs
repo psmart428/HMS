@@ -429,7 +429,6 @@ namespace HotelDataAceess.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("HotelDataAceess.Entiteis.Country", b =>
                 {
                     b.Navigation("People");
                 });
