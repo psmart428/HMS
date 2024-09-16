@@ -32,6 +32,7 @@ export default function BookingFields({
   register,
   errors,
   isPending,
+  watch,
   control,
   setValue,
 }: BookingTypeFieldsProps) {

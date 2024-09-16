@@ -76,6 +76,7 @@ export default function UserManagment() {
         onConfirm={() => deleteUser({ userId: openId })}
         isLoading={isDeleting}
         modalType={modalType}
+        openId={openId}
       />
     </>
   );
