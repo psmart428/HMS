@@ -148,7 +148,6 @@ namespace HotelDataAceess.Migrations
                     b.HasIndex(new[] { "CountryName" }, "UQ__Countrie__E056F2013F3B1091")
                         .IsUnique();
 
-                    b.ToTable("Countries");
                 });
 
             modelBuilder.Entity("HotelDataAceess.Entiteis.Payment", b =>
