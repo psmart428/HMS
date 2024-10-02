@@ -53,7 +53,6 @@ function Pagination({ count }: countPagination) {
     ${
       currentPage === pageCount
         ? "bg-yellow-100 text-yellow-400 cursor-not-allowed"
-        : "bg-yellow-400 text-white hover:bg-yellow-500"
     }`}
       >
         <span>Next</span>
