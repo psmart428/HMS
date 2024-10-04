@@ -6,6 +6,7 @@
 
         public string RoomNumber { get; set; } = null!;
 
+        public byte RoomFloor { get; set; }
 
         public decimal RoomSize { get; set; }
 
