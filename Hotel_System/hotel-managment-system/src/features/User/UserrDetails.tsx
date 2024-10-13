@@ -82,7 +82,6 @@ export default function UserrDetails() {
                   )?.countryName || "Nationality"}
                 </p>
               </div>
-              <VisitorCard
                 visitorDetails={userDetails?.personDto}
                 countries={countries}
               />
