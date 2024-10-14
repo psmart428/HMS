@@ -9,7 +9,6 @@ export function useSearchRoom() {
   const [searchParams] = useSearchParams();
 
   const roomRepository = useMemo(() => new RoomRepository(), []);
-  const column: string = searchParams.get("SearchtBy") || "";
   const value: string = searchParams.get("roomSearch") || "";
   const operation: string =
     column === "roomId" ||
