@@ -10,7 +10,6 @@ export function useSearchBooking() {
 
   const bookingRepository = useMemo(() => new BookingRepository(), []);
   const column: string = searchParams.get("SearchtBy") || "";
-  const value: string = searchParams.get("bookingSearch") || "";
   const operation: string =
     column === "bookingId" || column === "roomNumber"
       ? Operations.EQUAL
