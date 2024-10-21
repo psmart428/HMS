@@ -49,7 +49,6 @@ namespace HotelDataAceess.Migrations
                     b.Property<int>("UserId")
                         .HasColumnType("int");
 
-                    b.HasKey("Id");
 
                     b.HasIndex("UserId");
 
