@@ -316,7 +316,6 @@ namespace Hotel_Server_Side.Controllers
             bool isFound =
                 await RoomService.IsRoomAvailableByAvailabilityStatus(roomId);
 
-            return Ok(isFound);
         }
 
 
