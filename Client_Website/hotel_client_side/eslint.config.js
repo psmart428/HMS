@@ -24,6 +24,7 @@ export default [
       react: reactPlugin,
       "react-hooks": reactHooks,
       "react-refresh": reactRefresh,
+      "jsx-a11y": jsxA11y,
     },
     rules: {
       ...js.configs.recommended.rules,
