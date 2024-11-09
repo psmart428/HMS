@@ -99,6 +99,7 @@ namespace HotelBussinse.Services.Implements
             .Where(r => r.RevokedOn != null || r.ExpiresOn <= DateTime.UtcNow)
             .ExecuteDeleteAsync();
 
+            var accessToken = GenerateJwtToken(user);
             var refreshToken = GenerateRefreshToken();
             refreshToken.UserId = user.UserId;
 
