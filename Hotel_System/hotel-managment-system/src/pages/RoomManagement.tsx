@@ -46,6 +46,7 @@ export default function RoomManagement() {
             <div
               className="
                 w-full
+                sm:w-auto
                 flex justify-end
               "
             >
