@@ -21,6 +21,7 @@ export default function Dashboard() {
     isLoading4 ||
     isLoading5 ||
     isLoading7 ||
+    !countUser
   )
     return <Spinner />;
 

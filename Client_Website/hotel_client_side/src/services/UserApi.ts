@@ -34,6 +34,7 @@ export async function registerNewUser(
 
 export async function login(email: string, password: string) {
   const data = await fetchData<sessionData>(`${BASE_URL}Auth/Login`, {
+    method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ email, password }),
   });

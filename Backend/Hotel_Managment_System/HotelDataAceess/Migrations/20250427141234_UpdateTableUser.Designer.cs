@@ -233,6 +233,7 @@ namespace HotelDataAceess.Migrations
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)");
 
+                    b.Property<byte>("AvailabilityStatus")
                         .HasColumnType("tinyint")
                         .HasComment("0 => Available \r\n1 => Unavailable \r\n1 => underMaintenance");
 
@@ -268,6 +269,7 @@ namespace HotelDataAceess.Migrations
             modelBuilder.Entity("HotelDataAceess.Entiteis.RoomType", b =>
                 {
                     b.Property<int>("RoomTypeId")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasColumnName("RoomTypeID");
 
