@@ -86,7 +86,6 @@ namespace HotelDataAceess.Repository.Implements
             var query = _dbContext.Set<Room>()
                                 .Include(r => r.Bookings)
                                 .Include(r => r.RoomType)
-                                .Where(r =>
                                     r.AvailabilityStatus == AvailabilityStatus.Available &&
                                     r.RoomType.RoomTypeTitle == roomType &&
                                     r.RoomType.RoomTypeCapacity >= GuestNumber &&
