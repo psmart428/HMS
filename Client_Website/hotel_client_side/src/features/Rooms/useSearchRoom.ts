@@ -77,7 +77,6 @@ export function useSearchRoom() {
           GuestNumber,
         ],
         queryFn: () =>
-          searchRoom(
             page - 1,
             PAGE_SIZE,
             roomType,
