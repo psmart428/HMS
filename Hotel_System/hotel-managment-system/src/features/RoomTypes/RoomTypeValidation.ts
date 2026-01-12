@@ -11,3 +11,4 @@ export const roomTypeSchema = Yup.object({
   ),
 });
 
+export type RoomTypeFormValues = Yup.InferType<typeof roomTypeSchema>;

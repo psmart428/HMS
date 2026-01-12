@@ -390,6 +390,7 @@ namespace HotelDataAceess.Migrations
                     b.Navigation("Booking");
                 });
 
+            modelBuilder.Entity("HotelDataAceess.Entiteis.Person", b =>
                 {
                     b.HasOne("HotelDataAceess.Entiteis.Country", "NationalityCountry")
                         .WithMany("People")
