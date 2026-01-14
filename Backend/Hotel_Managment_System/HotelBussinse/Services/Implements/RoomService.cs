@@ -103,7 +103,6 @@ namespace HotelBussinse.Services.Implements
         {
             IEnumerable<Room> RoomTypes;
 
-            if (!string.IsNullOrEmpty(column) && !string.IsNullOrEmpty(value) && !string.IsNullOrEmpty(Operations))
             {
                 var predicate = BuildMySearch<Room>.BuildPredicate(column, Operations, value);
                 RoomTypes = await _roomRepository.PagerRoomUsingPageNumber(pageNumber, pageSize, predicate);
