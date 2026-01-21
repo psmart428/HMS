@@ -47,7 +47,6 @@ function setToken(options: FetchOptions) {
 }
 
 async function refreshTokenAndRetry(
-  url: string,
   options: FetchOptions
 ): Promise<Response> {
   options._retry = true;
