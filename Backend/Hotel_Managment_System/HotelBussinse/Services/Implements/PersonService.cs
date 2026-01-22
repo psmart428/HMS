@@ -29,6 +29,7 @@ namespace HotelBussinse.Services.Implements
         public async Task<PersonDto> GetByIdAsync(int id)
         {
             var person = await personRepository.GetByIdAsync(id)
+                ?? null;
             var personDto = _mapper.Map<PersonDto>(person);
 
             return personDto;
