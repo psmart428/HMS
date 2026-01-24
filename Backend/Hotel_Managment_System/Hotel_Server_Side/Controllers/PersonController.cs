@@ -99,7 +99,6 @@ namespace Hotel_Server_Side.Controllers
                 }
                 var person = await PersonService.GetByIdAsync(id);
 
-                if (person == null)
                 {
                     return NotFound("No persons found.");
                 }
