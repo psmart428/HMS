@@ -20,6 +20,7 @@ export function calculateDateRange(minYears: number, maxYears: number) {
   const minDate = new Date(
     today.getFullYear() - minYears,
     today.getMonth(),
+    today.getDate()
   )
     .toISOString()
     .split("T")[0];
