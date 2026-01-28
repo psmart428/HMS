@@ -5,6 +5,7 @@ function Banner() {
         <div className="absolute inset-0 bg-black/20"></div>
         <img
           src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/02/e2/77/ab/sur-plaza-hotel.jpg?w=1200&h=-1&s=1"
+          alt="Royal Suite"
           loading="eager"
           className="absolute w-full h-full object-cover opacity-15"
         />
