@@ -290,6 +290,7 @@ namespace HotelDataAceess.Migrations
                     b.HasIndex(new[] { "RoomTypeTitle" }, "UQ__RoomType__E37A7CB411ACF533")
                         .IsUnique();
 
+                    b.ToTable("RoomTypes");
                 });
 
             modelBuilder.Entity("HotelDataAceess.Entiteis.Authentication.RefreshToken", b =>
