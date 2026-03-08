@@ -202,6 +202,7 @@ namespace HotelDataAceess.Migrations
                 {
                     PaymentID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
+                    BookingID = table.Column<int>(type: "int", nullable: false),
                     PaymentDate = table.Column<DateTime>(type: "datetime", nullable: false),
                     PaidAmount = table.Column<decimal>(type: "smallmoney", nullable: false)
                 },
