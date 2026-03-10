@@ -171,7 +171,6 @@ namespace HotelDataAceess.Migrations
                     b.HasKey("PaymentId")
                         .HasName("PK__Payments__9B556A58F9235C1A");
 
-                    b.HasIndex("BookingId")
                         .IsUnique();
 
                     b.ToTable("Payments");
