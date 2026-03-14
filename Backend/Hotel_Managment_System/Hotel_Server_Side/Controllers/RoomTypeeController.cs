@@ -239,6 +239,7 @@ namespace Hotel_Server_Side.Controllers
         [Authorize(Roles = "Admin,Employee")]
         [HttpGet("CountRoomType/{column}/{value}/{Operations}", Name = "CountRoomType")]
         [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         [ProducesResponseType(StatusCodes.Status403Forbidden)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<ActionResult<int>> Count(string? column, string? value, string? Operations)
