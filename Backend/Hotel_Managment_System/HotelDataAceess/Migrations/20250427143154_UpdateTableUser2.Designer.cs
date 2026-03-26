@@ -262,7 +262,6 @@ namespace HotelDataAceess.Migrations
                         .HasColumnName("RoomTypeID");
 
                     b.HasKey("RoomId")
-                        .HasName("PK__Rooms__32863919B4265D84");
 
                     b.HasIndex("RoomTypeId");
 
