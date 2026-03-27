@@ -130,6 +130,7 @@ namespace HotelBussinse.Services.Implements
                 var room = await GetRoomOrThrowAsync(bookingDto.RoomId);
                 var roomType = await GetRoomTypeOrThrowAsync(room.RoomTypeId);
                 await EnsurePersonExistsAsync(bookingDto.PersonId);
+                await IsRoomAvailable(existingBooking.BookingId, bookingDto.RoomId, bookingDto.CheckInDate, bookingDto.CheckOutDate);
                 ValidateDates(bookingDto.CheckInDate, bookingDto.CheckOutDate);
 
                 if (room.RoomId != existingBooking.RoomId)
