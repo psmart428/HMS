@@ -254,7 +254,6 @@ namespace Hotel_Server_Side.Controllers
 
                 }
 
-                return Ok(await RoomTypeService.Count(column, value, Operations));
             }
             catch (Exception ex)
             {
