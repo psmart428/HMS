@@ -11,7 +11,6 @@ import ConfirmDelete from "../ui/ConfirmDelete";
 
 export default function UserManagment() {
   const { setIsOpen, onCloseModuleMenu, openId, modalType } =
-    useModuleContext();
   const { isDeleting, deleteUser } = useDeleteUser();
   return (
     <>
