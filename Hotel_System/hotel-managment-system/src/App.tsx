@@ -79,6 +79,7 @@ function App() {
         </ModuleProvider>
       </ThemeProvider>
       <Toaster
+        position="top-center"
         gutter={12}
         containerStyle={{
           margin: "8px",
