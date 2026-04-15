@@ -48,7 +48,6 @@ export default function RoomDetails() {
             </h4>
           </div>
 
-          <RoomCard roomDetails={roomDetails} />
         </div>
       </div>
     </div>
