@@ -12,6 +12,7 @@ public class RoomDto
 
     public byte RoomFloor { get; set; }
 
+    public decimal RoomSize { get; set; }
 
     public string AvailabilityStatus { get; set; } = null!;
     public string RoomImageUrl { get; set; } = null!;
