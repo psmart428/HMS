@@ -42,7 +42,6 @@ namespace HotelBussinse.Services.Implements
             if (RoomTypeTitleIsExists)
                 throw new ValidationException("The RoomType Is Exists with same Room Type Title.");
 
-            var NewRoomType = _mapper.Map<RoomType>(roomtypeDto);
             var RoomTypeDetails = await _roomTypeRepository.AddAsync(NewRoomType);
             return _mapper.Map<RoomTypeDto>(RoomTypeDetails);
 
