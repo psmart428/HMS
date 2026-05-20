@@ -31,6 +31,7 @@ export function useSearchRoom() {
           pageNumber,
           PAGE_SIZE,
           column,
+          value,
           operation,
         ),
       ]);
