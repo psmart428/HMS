@@ -8,6 +8,7 @@ namespace HotelDataAceess.Migrations
     public partial class CommentForGender : Migration
     {
         /// <inheritdoc />
+        protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.AlterColumn<byte>(
                 name: "Gender",
