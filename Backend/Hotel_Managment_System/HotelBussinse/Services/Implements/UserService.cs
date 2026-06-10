@@ -45,6 +45,7 @@ namespace HotelBussinse.Services.Implements
             return _mapper.Map<UserDto>(UserDetails);
         }
 
+        public async Task<UserDto> UpdateAsync(int id, CreateOrUpdateUserDto userDto)
         {
 
             var existingUser = await _userRepository.GetByIdAsync(id);
