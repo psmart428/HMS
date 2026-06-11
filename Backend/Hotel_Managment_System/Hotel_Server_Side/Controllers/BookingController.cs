@@ -270,7 +270,6 @@ namespace Hotel_Server_Side.Controllers
                     return NotFound("No Booking found.");
                 }
 
-                return Ok(await BookingService.DeleteAsync(id));
             }
             catch (Exception ex)
             {
