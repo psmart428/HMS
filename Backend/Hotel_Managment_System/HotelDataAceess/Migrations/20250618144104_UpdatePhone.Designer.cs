@@ -163,6 +163,7 @@ namespace HotelDataAceess.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PaymentId"));
 
                     b.Property<int>("BookingId")
+                        .HasColumnType("int")
                         .HasColumnName("BookingID");
 
                     b.Property<decimal>("PaidAmount")
