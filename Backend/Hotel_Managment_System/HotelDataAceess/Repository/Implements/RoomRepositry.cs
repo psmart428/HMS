@@ -10,6 +10,7 @@ namespace HotelDataAceess.Repository.Implements
     public class RoomRepositry(HotelDbContext dbContext) : GenericRepository<Room>(dbContext), IRoomRepositry
     {
         private readonly HotelDbContext _dbContext = dbContext;
+        public async Task<bool> ExistsAsync(int id) => await _dbContext.Set<Room>().AnyAsync(x => x.RoomId == id);
         public async Task<int> GetCountActiveRoom() => await _dbContext.Set<Room>()
             .CountAsync(x => x.AvailabilityStatus == AvailabilityStatus.Available);
 
