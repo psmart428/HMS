@@ -68,6 +68,7 @@ namespace HotelDataAceess.Migrations
                 });
 
             migrationBuilder.CreateIndex(
+                name: "IX_Bookings_ReservationID",
                 table: "Bookings",
                 column: "ReservationID",
                 unique: true);

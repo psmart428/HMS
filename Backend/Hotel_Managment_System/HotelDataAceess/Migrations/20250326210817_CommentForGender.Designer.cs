@@ -387,6 +387,7 @@ namespace HotelDataAceess.Migrations
                 {
                     b.HasOne("HotelDataAceess.Entiteis.Booking", "Booking")
                         .WithOne("Payment")
+                        .HasForeignKey("HotelDataAceess.Entiteis.Payment", "BookingId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired()
                         .HasConstraintName("FK__Payments__Bookin__6754599E");
