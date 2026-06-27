@@ -60,6 +60,7 @@ namespace HotelDataAceess.Migrations
                         principalTable: "People",
                         principalColumn: "PersonID",
                         onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
                         name: "FK__Reservati__RoomI__5CD6CB2B",
                         column: x => x.RoomID,
                         principalTable: "Rooms",
