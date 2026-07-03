@@ -179,6 +179,7 @@ namespace HotelDataAceess.Migrations
                     b.ToTable("Payments");
                 });
 
+            modelBuilder.Entity("HotelDataAceess.Entiteis.Person", b =>
                 {
                     b.Property<int>("PersonId")
                         .ValueGeneratedOnAdd()
