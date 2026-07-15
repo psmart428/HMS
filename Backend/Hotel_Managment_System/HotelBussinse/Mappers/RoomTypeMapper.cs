@@ -13,6 +13,7 @@ namespace HotelBussinse.Mappers
     {
         public RoomTypeMapper()
         {
+            CreateMap<RoomType, RoomTypeDto>();
             CreateMap<CreateOrUpdateRoomTypeDto, RoomType>();
 
 
