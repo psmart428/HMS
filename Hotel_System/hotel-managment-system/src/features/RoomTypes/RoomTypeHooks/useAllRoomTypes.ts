@@ -37,6 +37,7 @@ export function useAllRoomTypes() {
         queryFn: () =>
           roomTypeRepository.GetRoomTypeUsingPageNumber(
             pageNumber + 1,
+            PAGE_SIZE,
             "",
             "",
             ""
