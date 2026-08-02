@@ -378,6 +378,7 @@ namespace HotelDataAceess.Migrations
                     b.Navigation("Room");
                 });
 
+            modelBuilder.Entity("HotelDataAceess.Entiteis.Payment", b =>
                 {
                     b.HasOne("HotelDataAceess.Entiteis.Booking", "Booking")
                         .WithOne("Payment")
